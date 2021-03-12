@@ -1,0 +1,56 @@
+body{
+    font-size: 1rem;
+    background-color: #bbe1fa;
+}
+.navbar{
+
+    background-color: #1b262c;
+}
+.navbar a{
+    color: white;
+}
+.navbar .navbar-nav{
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+
+.navbar li a:hover, a:focus{
+    color: #3282b8;
+}
+.navbar-toggler button{
+    background-color: #ffffff;  
+    color: white;
+}
+.main-section{
+    margin-top: 5rem;
+    color: #1b262c;
+    height: 200rem;
+}
+main h2{
+    font-size: 3rem;
+    color: #1b262c;
+}
+main h5{
+    padding: 1rem 0;
+    font-size: 2.4rem;
+    color: #1b262c;
+}
+main p{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: #1b262c;
+}
+main .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+@media (max-width: 991px){
+
+    .navbar ul{
+        height: 100vh;
+    }
+    .navbar li a{
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+}
